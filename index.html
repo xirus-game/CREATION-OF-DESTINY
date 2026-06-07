@@ -4,70 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Creation Of Destiny - Clan Recruitment</title>
+    
+    <!-- Google Search Verification Code -->
+    <meta name="google-site-verification" content="google563cc44418ad6a49.html" />
+
     <style>
         body {
+            font-family: Arial, sans-serif;
             background-color: #0b0e14;
-            color: #f5f5f5;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-            padding: 20px;
-            box-sizing: border-box;
-        }
-        .container {
+            color: #ffffff;
             text-align: center;
-            max-width: 600px;
-            background: linear-gradient(145deg, #111622, #0d121d);
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.7);
-            border: 1px solid #1f293d;
+            padding: 50px;
+            margin: 0;
         }
-        .clan-link {
-            display: inline-block;
-            text-decoration: none;
+        h1 {
+            color: #f5a623;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.2rem;
+            color: #b0b5bc;
+            margin-bottom: 30px;
+        }
+        .emblem-container {
+            margin: 20px auto;
+            max-width: 300px;
+            cursor: pointer;
             transition: transform 0.3s ease;
         }
-        .clan-link:hover {
-            transform: scale(1.03);
+        .emblem-container:hover {
+            transform: scale(1.05);
         }
-        .emblem {
+        .emblem-img {
             width: 100%;
-            max-width: 400px;
             height: auto;
-            border-radius: 8px;
-            box-shadow: 0 0 20px rgba(255,255,255,0.05);
-            border: 2px solid #2a374e;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
         }
-        .instructions {
-            margin-top: 25px;
+        .requirements {
+            margin-top: 30px;
+            font-weight: bold;
+            color: #f5a623;
             font-size: 1.1rem;
-            color: #94a3b8;
-            font-weight: 500;
-        }
-        .click-hint {
-            color: #38bdf8;
-            font-size: 0.9rem;
-            margin-top: 5px;
-            letter-spacing: 1px;
-            text-transform: uppercase;
         }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <!-- Clickable Emblem Area -->
-    <a href="https://www.bungie.net/7/en/Clan/Profile/4832315" class="clan-link" title="Join Creation Of Destiny">
-        <img src="754fc7e0-b871-4278-a2f7-0cccc127d577.jpg" alt="Creation Of Destiny Clan Emblem" class="emblem">
-    </a>
-    
-    <div class="instructions">Click the emblem above to visit our official Bungie Clan Page</div>
-    <div class="click-hint">Mic Required • PlayStation Main • 18+</div>
-</div>
+    <h1>Creation Of Destiny</h1>
+    <p>Clan Recruitment</p>
+
+    <div class="emblem-container" onclick="window.location.href='https://bungie.net';">
+        <!-- Replace the src below with your actual emblem image URL if needed -->
+        <img class="emblem-img" src="https://placeholder.com" alt="Creation Of Destiny Clan Emblem">
+    </div>
+
+    <p style="font-size: 0.9rem; color: #70757d;">Click the emblem above to visit our official Bungie Clan Page</p>
+
+    <div class="requirements">
+        Mic Required &bull; PlayStation Main &bull; 18+
+    </div>
 
 </body>
 </html>
